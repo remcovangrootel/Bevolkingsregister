@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ambtenaar</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    form, li { margin-bottom: 20px; }
+    input, textarea { display: block; margin-bottom: 10px; width: 300px; padding: 5px; }
+    button { margin-right: 5px; padding: 5px 10px; }
+  </style>
+</head>
+<body>
+  <h1>Hallo Ambtenaar!</h1>
+  <p>Voer hier een nieuwe Star Wars quote in:</p>
+
+  <form id="quoteForm">
+    <textarea name="Quote" placeholder="Quote" required></textarea>
+    <input type="text" name="Personage" placeholder="Personage" required />
+    <input type="text" name="Film" placeholder="Film" required />
+    <input type="date" name="Datum" required />
+    <button type="submit">Verzenden</button>
+  </form>
+
+  <h2>Bestaande quotes</h2>
+  <ul id="quotes"></ul>
+
+<script src="ambtenaar.js"></script>
+
+</body>
+</html>
