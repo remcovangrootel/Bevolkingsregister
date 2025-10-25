@@ -1,4 +1,4 @@
 server met 2 frontends, die informatie uit een database halen, toevoegen, bewerken en verwijderen
 Package.zip weer uitpakken in dezelfde map als server.js
-in deze map een folder public maken, waarin burger.html en ambtenaar.html, en ambtenaar.js komen te staan.
+in deze map een folder public maken, waarin burger.html en ambtenaar.html en de bijbehorende scriptbestanden komen te staan.
 star_wars_db moet worden geimporteerd via myphpadmin. 
